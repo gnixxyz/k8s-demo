@@ -38,8 +38,8 @@ $ docker rmi k8s-demo
 ```
 
 ### 安装 Kubernetes
-[kubectl](https://kubernetes.io/docs/tasks/tools/install-kubectl/)
-[minikube](https://kubernetes.io/docs/tasks/tools/install-minikube/)
+* [kubectl](https://kubernetes.io/docs/tasks/tools/install-kubectl/)
+* [minikube](https://kubernetes.io/docs/tasks/tools/install-minikube/)
 
 
 Minikube 启动时会自动配置 kubectl，把它指向 Minikube 提供的 Kubernetes API 服务。可以用下面的命令确认：
@@ -271,5 +271,5 @@ deployment "k8s-demo-deployment" successfully rolled out
 在回滚结束之后，刷新浏览器就可以确认网页内容又改回了「Hello Docker!」。
 
 ### 延伸阅读
-https://www.dongwm.com/post/use-kubernetes-1/
-https://1byte.io/developer-guide-to-docker-and-kubernetes/
+* https://www.dongwm.com/post/use-kubernetes-1/
+* https://1byte.io/developer-guide-to-docker-and-kubernetes/
